@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link href="css/bootstrap.css" rel="stylesheet">
-
+  
     <link rel="icon" type="img/" href="img/ale.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   </head>
   <body>
+    <i class="bi bi-list menu-mobile"></i>
     <aside id="header">
       <section class="profile">
         <img src="img/ale.jpg" width="100" alt="Foto do Alexandre">
@@ -28,16 +29,16 @@
       <nav id="navbar" class="nav-menu">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door-fill"></i> Início</a>
+                <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house-door-fill"></i> Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-file-earmark-fill"></i> Currículo</a>
+                <a class="nav-link" href="#sobre"><i class="bi bi-file-earmark-fill"></i>Currículo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-list-check"></i> Portifólio</a>
+                <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Portifólio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i> Contato</a>
+                <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i>Contato</a>
               </li>
             <hr>
             </ul>
@@ -45,10 +46,199 @@
     </aside>    
     <main id="main">
         <section id="inicio" class="row m-0 p-0">
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+              <h2 class="text-white text-shadow">Alexandre F. de Souza</h2>
+              <span id="subtitle" class="text-white text-shadow">Dev Jr | Analista QA</span>
+            </div>
+            <div class="col-md-7 d-flex justify-content-end align-items-end flex-column">
+              <div id="arraste" class="d-flex align-items-center">
+                <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                <a href="#fim">arraste para mais</a>   
+              </div>
+            </div>
+        </section>
+        <section id="sobre" class="container mt-5">
+          <div class="row w-100">
+              <div class="col md-12">
+                <h2 class="pt-3">Meu Currículo</h2>
+                <p>Meu nome é Alexandre F., sou um profissional de ti a mais de 30 anos, iniciei minhas atividades no início da década de 90, desde então minha jornada fora técnica na área de infraestrutura, desktops, servidores, sistemas operacionais, redes entre outras atividades da área. A minha paixão por desafios e jogos, me levou a conhecer mais profundamente o mundo da programação, no início não fora fácil, mas graças a Deus e um pouco de esforço hoje, posso dizer que estou familiarizado com os dois mundos (infra e Desenvolvimento de sistemas). A jornada apenas começou, tenho ainda muito a aprender, o aprendizado é contínuo.
+                  Agradeço a Deus, minha família e amigos que nunca deixaram de incentivar e mostrar que eu era capaz.
+                  </p>
+              </div>
+          </div>
+          <div class="row mt-4 ">
+              <div class="col-md-4">
+                  <img class="img-fluid shadow" src="img/ale.jpg" alt="Foto do Ale">
+              </div>
+              <div class="col-md-8">
+                  <h3>Desenvolvedor</h3>
+                  <p>Atualmente atuo como Desenvolvedor na UNIVALI - Universidade do Vale do Itajaí.</p>
+                  <div class="row mt-3 mb-3">
+                    <div class="col-md-6">
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                          Níver: <span class="fw-lighter">02 de Outubro de 1973</span>
+                        </li>
+                        <li class="list-group-item">
+                          Idade: <span class="fw-lighter">48 anos</span>
+                        </li>
+                        <li class="list-group-item">
+                          Cidade: <span class="fw-lighter">Itajaí</span>
+                        </li>
+                        <li class="list-group-item">
+                          Estado: <span class="fw-lighter">Santa Catarina</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item">
+                          Hobby: <span class="fw-lighter">Jogos Eletronicos</span>
+                        </li>
+                        <li class="list-group-item">
+                          Site: <a href="https://lexxbr.github.io/portifolio/" 
+                          target="_blank"
+                          class="fw-lighter text-decoration-none link-dark">Meu github</a></li>
+                        <li class="list-group-item">
+                          Trabalho: <a href="https://univali.br" 
+                          target="_blank"
+                          class="fw-lighter text-decoration-none link-dark">UNIVALI</a></li>
+                          <li class="list-group-item">
+                            Experiencia: <span class="fw-lighter">+10 anos</span>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p>Em busca de tornar a programação mais acessível a todos, tenho um projeto de auxílio aos iniciantes na área, incentivando, demonstrando alguns conceitos e preceitos, somando meu conhecimento e vivência na jornada acadêmica em tutoriais e mentorias sem fins lucrativos.</p>
+              </div>
+          </div>
+        </section>
+        <section id="habilidades" class="mt-5 section-bg">
+          <div class="container pb-5">
+            <h2 class="pt-5">Habilidades</h2>
+            <p>Em busca de tornar a programação mais acessível a todos, tenho um projeto de auxílio aos iniciantes na área, incentivando, demonstrando alguns conceitos e preceitos, somando meu conhecimento e vivência na jornada acadêmica em tutoriais e mentorias sem fins lucrativos.</p>
+            <div class="row">
+              <div class="col-md-6">
+                    <p class="mt-3 mb-0">HTML</p>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <p class="mt-3 mb-0">CSS</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Javascript</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div>
+                  <p class="mt-3 mb-0">GIT</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <p class="mt-3 mb-0">PHP</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Python</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <p class="mt-3 mb-0">C#</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div>
+                  <p class="mt-3 mb-0">SQL</p>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+              </div>
+            </div><br>
+            <hr  class="w-75 me-auto ms-auto">
+            <div class="row">
+              <div class="col-md-6">
+                  <p class="mt-3 mb-0">Trabalho em Equipe</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 90%;" 
+                    aria-valuenow="90" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">90%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Proatividade</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 98%;" 
+                    aria-valuenow="98" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">98%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Orientação a detalhes</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 90%;" 
+                    aria-valuenow="90" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">90%</div>
+                  </div>
 
+              </div>
+              <div class="col-md-6">
+                  <p class="mt-3 mb-0">Communicação</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 93%;" 
+                    aria-valuenow="93" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">93%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Comprometimento</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 95%;" 
+                    aria-valuenow="95" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">95%</div>
+                  </div>
+                  <p class="mt-3 mb-0">Empatia</p>
+                  <div class="progress">
+                    <div class="progress-bar" 
+                    data-anime="left"
+                    role="progressbar" 
+                    aria-label="Example with label" 
+                    style="width: 83%;" 
+                    aria-valuenow="83" 
+                    aria-valuemin="0" 
+                    aria-valuemax="100">83%</div>
+                  </div>
+
+              </div>
+
+            </div>
+          </div>
         </section>
     </main>
 
  <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/script.js"></script>
+ <footer id="fim">
+
+ </footer>
   </body>
 </html>
