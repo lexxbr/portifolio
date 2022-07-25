@@ -2,6 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfólio - Aluno Alexandre Fco Souza">
     <meta name="author" content="Alexandre Francisco, and Bootstrap contributors">
@@ -18,7 +19,8 @@
     <aside id="header">
       <section class="profile">
         <img src="img/ale.jpg" width="100" alt="Foto do Alexandre">
-        <h1>Alexandre Fco</h1>
+        <h1><a href="#sobre" class="text-decoration-none text-white h1"> Alexandre F. </a> </h1>
+        
         <div class="social-links mt-4 text-center">
             <a href="https://www.linkedin.com/in/alexandre-francisco-de-souza/" target="_blank"><i class="bi bi-linkedin"></i></a>
             <a href="https://github.com/lexxbr/" target="_blank"><i class="bi bi-github"></i></a>
@@ -29,16 +31,21 @@
       <nav id="navbar" class="nav-menu">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house-door-fill"></i> Início</a>
+                <a class="nav-link active" 
+                aria-current="page" 
+                href="#inicio"><i class="bi bi-house-door-fill" aria-hidden="true"></i> Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#sobre"><i class="bi bi-file-earmark-fill"></i>Currículo</a>
+                <a class="nav-link" 
+                href="#curriculo"><i class="bi bi-file-earmark-fill" aria-hidden="true"></i>Currículo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Portifólio</a>
+                <a class="nav-link" 
+                href="#portfolio"><i class="bi bi-list-check" aria-hidden="true"></i>Portifólio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i>Contato</a>
+                <a class="nav-link" 
+                href="#contato"><i class="bi bi-envelope-fill" aria-hidden="true"></i>Contato</a>
               </li>
             <hr>
             </ul>
@@ -47,7 +54,7 @@
     <main id="main">
         <section id="inicio" class="row m-0 p-0">
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-              <h2 class="text-white text-shadow">Alexandre F. de Souza</h2>
+              <h2 class="text-white text-shadow"><a href="#sobre" class="text-decoration-none text-white"> Alexandre F. de Souza </a></h2>
               <span id="subtitle" class="text-white text-shadow">Dev Jr | Analista QA</span>
             </div>
             <div class="col-md-7 d-flex justify-content-end align-items-end flex-column">
@@ -59,18 +66,18 @@
         </section>
         <section id="sobre" class="container mt-5">
           <div class="row w-100">
-              <div class="col md-12">
-                <h2 class="pt-3">Meu Currículo</h2>
-                <p>Meu nome é Alexandre F., sou um profissional de ti a mais de 30 anos, iniciei minhas atividades no início da década de 90, desde então minha jornada fora técnica na área de infraestrutura, desktops, servidores, sistemas operacionais, redes entre outras atividades da área. A minha paixão por desafios e jogos, me levou a conhecer mais profundamente o mundo da programação, no início não fora fácil, mas graças a Deus e um pouco de esforço hoje, posso dizer que estou familiarizado com os dois mundos (infra e Desenvolvimento de sistemas). A jornada apenas começou, tenho ainda muito a aprender, o aprendizado é contínuo.
-                  Agradeço a Deus, minha família e amigos que nunca deixaram de incentivar e mostrar que eu era capaz.
-                  </p>
+              <div class="col md-12" data-anime="down">
+                <h2 class="pt-3">Sobre</h2>
+                <p>Meu nome é Alexandre F., sou profissional de Ti a mais de 30 anos. Iniciei minhas atividades no início da década de 90, desde então minha jornada fora técnica, na área de infraestrutura, desktops, servidores, sistemas operacionais, redes entre outras atividades da área. A minha paixão por desafios e jogos eletronicos, me levou a conhecer mais profundamente o mundo da programação, no início não foi fácil, mas graças a Deus e um pouco de esforço hoje, posso dizer que estou familiarizado com os dois mundos (infra e Desenvolvimento de sistemas). A jornada apenas começou, tenho ainda muito a aprender, o aprendizado é contínuo e os desafios me motiva.
+                Agradeço a Deus, minha família e aos meus amigos que nunca deixaram de incentivar e mostrar que eu era capaz.
+                </p>
               </div>
           </div>
           <div class="row mt-4 ">
-              <div class="col-md-4">
+              <div class="col-md-4" data-anime="left">
                   <img class="img-fluid shadow" src="img/ale.jpg" alt="Foto do Ale">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8" data-anime="right">
                   <h3>Desenvolvedor</h3>
                   <p>Atualmente atuo como Desenvolvedor na UNIVALI - Universidade do Vale do Itajaí.</p>
                   <div class="row mt-3 mb-3">
@@ -113,45 +120,46 @@
               </div>
           </div>
         </section>
+
         <section id="habilidades" class="mt-5 section-bg">
           <div class="container pb-5">
             <h2 class="pt-5">Habilidades</h2>
-            <p>Em busca de tornar a programação mais acessível a todos, tenho um projeto de auxílio aos iniciantes na área, incentivando, demonstrando alguns conceitos e preceitos, somando meu conhecimento e vivência na jornada acadêmica em tutoriais e mentorias sem fins lucrativos.</p>
+            <p>Esses são alguns dos meus conhecimentos na área desenvolvimento de sistemas. O know-how é maior do que conseguimos explicar ou resumir. O importante é mostrar a evolução com bons trabalhos, sempre melhorar e nunca mediar esforços em entregar um trabalho satisfatório com um plus a mais.</p>
             <div class="row">
               <div class="col-md-6">
                     <p class="mt-3 mb-0">HTML</p>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                      <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
                     <p class="mt-3 mb-0">CSS</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                   </div>
                   <p class="mt-3 mb-0">Javascript</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                   </div>
                   <p class="mt-3 mb-0">GIT</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar"style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                   </div>
               </div>
               <div class="col-md-6">
                   <p class="mt-3 mb-0">PHP</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
                   </div>
                   <p class="mt-3 mb-0">Python</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                   </div>
                   <p class="mt-3 mb-0">C#</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                   </div>
                   <p class="mt-3 mb-0">SQL</p>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                   </div>
               </div>
             </div><br>
@@ -229,6 +237,203 @@
               </div>
             </div>
           </div>
+        </section>
+
+        <section id="curriculo" class="mt-5 cv">
+          <div class="container pt-5">
+            <h2 class="pt-3 pb-4 cv-title">Currículo</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="cv-title">Educação</h3>
+                  <div class="cv-item">
+                      <h4>Analise e Desenvolvimento de Sistemas </h4>
+                        <h5>2021 - 2023</h5>
+                        <p><em>UNIVALI - Universidade do Vale do Itajaí</em></p>
+                        <p>Curso Superior de Analise e desenvolvimento de sistemas.</p>
+                  </div>
+                  <div class="cv-item">
+                      <h4>Engenharia de Software</h4>
+                        <h5>2014 - 2019</h5>
+                        <p><em>UNICESUMAR</em></p>
+                        <p>Curso superior de Engenharia de Software</p>
+                  </div>
+                  <div class="cv-item">
+                      <h4>Cursos Tecnico - MBASIC | DBASEIII </h4>
+                        <h5>1987 - 1987</h5>
+                        <p><em>Data Center - Curitiba</em></p>
+                        <p>Curso voltado a tecnicas utilizadas na criação de ambiente computacional</p>
+                  </div>
+              </div>
+
+              <div class="col-md-6">
+                <h3 class="cv-title">Profissional</h3>
+                  <div class="cv-item">
+                      <h4>UNIVALI - Universidade do vale do Itajaí </h4>
+                        <h5>2022</h5>
+                        <p><em>Desenvolvedor</em></p>
+                        <p>Vice-reitoria EAD - Projetos</p>
+                </div>
+                <div class="cv-item">
+                      <h4>Suporte Informática </h4>
+                        <h5>2020 - 2022</h5>
+                        <p><em>Analista QA</em></p>
+                        <p>Desenvolvimento de novos produtos</p>
+                </div>
+                <div class="cv-item">
+                      <h4>PROHAR Tecnologia </h4>
+                        <h5>2016 - 2019</h5>
+                        <p><em>Projetos Ti</em></p>
+                        <p>Desenvolvimento de projetos tecnologicos</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="section-bg mt-5">
+          <div class="container pb-5 pt-5">
+              <h2 class="pb-4">Portfólio</h2>
+                <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>      
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+
+                          <div class="row row-cols-1 row-cols-md-3 g-4">
+                              <div class="col">
+                                <div class="card">
+                                  <img src="img/moodle.jpg" class="card-img-top" alt="Plataforma Educacional">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Plataforma Educacional</h5>
+                                    <p class="card-text">Acesso restrito a Alunos da instituição</p>
+                                    <div class="d-flex justify-content-center">
+                                      <a href="https://intranet.univali.br/intranet/PortalAluno/" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i> Portal do Aluno</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                <div class="card">
+                                  <img src="img/suporte.jpg" height="203.77px" class="card-img-top" alt="suporteshop">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Site Suporteshop</h5>
+                                    <p class="card-text">Suporteshop site de venda de serviços.</p>
+                                    <div class="d-flex justify-content-center">
+                                      <a href="https://suporteshop.com.br" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-link-45deg"></i> suporteshop</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                <div class="card">
+                                  <img src="img/meus.jpg" class="card-img-top" alt="Meu Blog">
+                                  <div class="card-body">
+                                    <h5 class="card-title">github</h5>
+                                    <p class="card-text">Meus projetos academicos.</p>
+                                    <div class="d-flex justify-content-center">
+                                      <a href="https://github.com/lexxbr/" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i> Meu github</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                                        
+                          </div>
+                          
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card">
+                                <img src="img/itributo.jpg" class="card-img-top" alt="Plataforma Educacional">
+                                <div class="card-body">
+                                  <h5 class="card-title">Site Inova Tributo</h5>
+                                  <p class="card-text">Sistema de captação tributaria</p>
+                                  <div class="d-flex justify-content-center">
+                                    <a href="https://inovatributo.com.br/" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i> INOVA tributo</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col">
+                              <div class="card">
+                                <img src="img/desafio.jpg" class="card-img-top" alt="Meu Blog">
+                                <div class="card-body">
+                                  <h5 class="card-title">Desafio Academico</h5>
+                                  <p class="card-text">projeto desafio academico 2022.</p>
+                                  <div class="d-flex justify-content-center">
+                                    <a href="https://lexxbr.github.io/desafiov2/" target="_blank" class="btn btn-outline-dark me-3"><i class="bi bi-github"></i> Desafio</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>                  
+                    </div>
+                  
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+          <div class="container mb-5">
+            <h2 class="pt-3 pb-3">Contato</h2>
+            <div class="row">
+
+              <div class="col-md-5">
+                <div class="card p-5 shadow border-0">
+                  <div class="endereco">
+                    <h4 cla><i class="bi bi-geo-alt"> Localização: </i></h4>
+                    <p>Itajai - SC</p>
+                  </div>
+                  <div class="email">
+                    <h4 cla><i class="bi bi-envelope"> Email:</i></h4>
+                    <p><a href="mailto:alex.souza@edu.univali.br" class="text-decoration-none">alex.souza@edu.univali.br</a> </p>
+                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.6727713289674!2d-48.66295398525762!3d-26.913878399734422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cc756623bba7%3A0x956e9da7ba5a35cf!2sR.%20Uruguai%2C%20Itaja%C3%AD%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1658711812429!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="w-100"></iframe>
+
+                </div>
+              </div>      
+              <div class="col-md-7 mt-5 mt-md-0">
+                  <div class="card p-5 h-100 shadow border-0">
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="nome" class="form-label">Nome: </label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu Nome">
+                      </div>    
+                      <div class="col-md-6">
+                        <label for="email" class="form-label">Email: </label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu E-mail">
+                      </div>
+                                        
+                      <div class="col-12">
+                        <label for="mensagem" class="form-label">Menssagem: </label>
+                        <textarea type="text" class="form-control" rows="10" id="mensagem" placeholder="Digite a sua Mensagem" name="mensagem"></textarea>
+                      </div>                      
+                      <div class="col-12 d-flex justify-content-center mt-4">
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+
         </section>
     </main>
 
