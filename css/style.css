@@ -265,7 +265,7 @@ section#inicio div#arraste a{
     transform: translate3d(0, 0, 0);
 }
 
-@media (max-width: 1860px){
+@media (max-width: 1080px){
     .carousel-control-prev{
       margin-left: 0;
     }
@@ -274,4 +274,3 @@ section#inicio div#arraste a{
       margin-right: 0;
     }
 }
-
